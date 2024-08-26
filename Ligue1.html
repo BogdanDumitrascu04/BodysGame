@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/Ligue1.css">
+    <link rel="stylesheet" href="Ligue1.css">
     <title>Body's game</title>
 </head>
 <body>
     <div class="header">
-        <img src="/images/Header/fotbal.png" alt="Bogdy's Game Logo" id="logo">
+        <img src="images/Header/fotbal.png" alt="Bogdy's Game Logo" id="logo">
         <div id="mainHeader">Guess the fotballer</div>
         <div id="infoButton">ⓘ</div>
         <div id="infoContent" class="hidden">
@@ -33,24 +33,24 @@
    <div class="content">
     <h2>Ligue 1</h2>
     <div class="Teams">
-        <div class="Angers">Angers <br> <img src="/images/leagues/Ligue1/Angers/Logo/Angers.png"></div>
-        <div class="Auxerre">Auxerre <br> <img src="/images/leagues/Ligue1/Auxerre/Logo/Auxerre.png"></div>
-        <div class="Brest">Brest <br> <img src="/images/leagues/Ligue1/Brest/Logo/Brest.png"></div>
-        <div class="LeHavre">Le Havre <br> <img src="/images/leagues/Ligue1/LeHavre/Logo/LeHavre.png"></div>
-        <div class="Lens">Lens <br> <img src="/images/leagues/Ligue1/Lens/Logo/Lens.png"></div>
-        <div class="Lille">Lille <br> <img src="/images/leagues/Ligue1/Lille/Logo/Lille.png"></div>
-        <div class="Monaco">Monaco <br> <img src="/images/leagues/Ligue1/Monaco/Logo/Monaco.png"></div>
-        <div class="Montpellier">Montpellier <br> <img src="/images/leagues/Ligue1/Montpellier/Logo/Montpellier.png"></div>
-        <div class="Nantes">Nantes <br> <img src="/images/leagues/Ligue1/Nantes/Logo/Nantes.png"></div>
-        <div class="Nice">Nice <br> <img src="/images/leagues/Ligue1/Nice/Logo/Nice.png"></div>
-        <div class="OL">OL <br> <img src="/images/leagues/Ligue1/OL/Logo/OL.png"></div>
-        <div class="OM">OM <br> <img src="/images/leagues/Ligue1/OM/Logo/OM.png"></div>
-        <div class="PSG">PSG <br> <img src="/images/leagues/Ligue1/PSG/Logo/PSG.png"></div>
-        <div class="Reims">Reims <br> <img src="/images/leagues/Ligue1/Reims/Logo/Reims.png"></div>
-        <div class="Rennes">Rennes <br> <img src="/images/leagues/Ligue1/Rennes/Logo/Rennes.png"></div>
-        <div class="StEtienne">St Etienne <br> <img src="/images/leagues/Ligue1/StEtienne/Logo/StEtienne.png"></div>
-        <div class="Strasbourg">Strasbourg <br> <img src="/images/leagues/Ligue1/Strasbourg/Logo/Strasbourg.png"></div>
-        <div class="Toulouse">Toulouse <br> <img src="/images/leagues/Ligue1/Toulose/Logo/Toulouse.png"></div>
+        <div class="Angers">Angers <br> <img src="images/leagues/Ligue1/Angers/Logo/Angers.png"></div>
+        <div class="Auxerre">Auxerre <br> <img src="images/leagues/Ligue1/Auxerre/Logo/Auxerre.png"></div>
+        <div class="Brest">Brest <br> <img src="images/leagues/Ligue1/Brest/Logo/Brest.png"></div>
+        <div class="LeHavre">Le Havre <br> <img src="images/leagues/Ligue1/LeHavre/Logo/LeHavre.png"></div>
+        <div class="Lens">Lens <br> <img src="images/leagues/Ligue1/Lens/Logo/Lens.png"></div>
+        <div class="Lille">Lille <br> <img src="images/leagues/Ligue1/Lille/Logo/Lille.png"></div>
+        <div class="Monaco">Monaco <br> <img src="images/leagues/Ligue1/Monaco/Logo/Monaco.png"></div>
+        <div class="Montpellier">Montpellier <br> <img src="images/leagues/Ligue1/Montpellier/Logo/Montpellier.png"></div>
+        <div class="Nantes">Nantes <br> <img src="images/leagues/Ligue1/Nantes/Logo/Nantes.png"></div>
+        <div class="Nice">Nice <br> <img src="images/leagues/Ligue1/Nice/Logo/Nice.png"></div>
+        <div class="OL">OL <br> <img src="images/leagues/Ligue1/OL/Logo/OL.png"></div>
+        <div class="OM">OM <br> <img src="images/leagues/Ligue1/OM/Logo/OM.png"></div>
+        <div class="PSG">PSG <br> <img src="images/leagues/Ligue1/PSG/Logo/PSG.png"></div>
+        <div class="Reims">Reims <br> <img src="images/leagues/Ligue1/Reims/Logo/Reims.png"></div>
+        <div class="Rennes">Rennes <br> <img src="images/leagues/Ligue1/Rennes/Logo/Rennes.png"></div>
+        <div class="StEtienne">St Etienne <br> <img src="images/leagues/Ligue1/StEtienne/Logo/StEtienne.png"></div>
+        <div class="Strasbourg">Strasbourg <br> <img src="images/leagues/Ligue1/Strasbourg/Logo/Strasbourg.png"></div>
+        <div class="Toulouse">Toulouse <br> <img src="images/leagues/Ligue1/Toulose/Logo/Toulouse.png"></div>
        
     </div>
 
@@ -59,13 +59,13 @@
 
     </div>
     <button id="startButton">START</button>
-    <script src="/js/Ligue1.js"></script>
+    <script src="js/Ligue1.js"></script>
     <div id="cookie-banner-placeholder"></div>
-    <script src="/js/cookie-banner.js"></script>
+    <script src="js/cookie-banner.js"></script>
    
     <script>
        document.addEventListener('DOMContentLoaded', function () {
-    fetch('/cookie-banner.html')
+    fetch('cookie-banner.html')
         .then(response => response.text())
         .then(html => {
             document.getElementById('cookie-banner-placeholder').innerHTML = html;
