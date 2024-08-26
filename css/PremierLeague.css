@@ -202,7 +202,7 @@ body {
     
 }
 .content {
-    background: url('/images/leagues/PremierLeague/Logo/1.jpg');
+    background: url("images/1.jpg");
     height: 520px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
