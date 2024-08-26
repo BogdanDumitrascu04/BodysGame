@@ -63,7 +63,7 @@ body {
 }
 .header {
     color: #fff;
-    background: url('/images/leagues/LaLiga/Logo/1.jpg');
+    background: url("/images/leagues/LaLiga/Logo/1.jpg");
     background-position: center -30px;
     height: 60px;
     position: fixed;
