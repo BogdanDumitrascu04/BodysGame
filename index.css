@@ -408,7 +408,7 @@ body {
         font-size: 0.9rem; /* Smaller font size for navbar items */
     }
     #menuContent{
-        height: 25vh;
+        height: auto;
     }
 
     #infoContent {
