@@ -63,7 +63,7 @@ body {
 }
 .header {
     color: #fff;
-    background: url("/images/leagues/LaLiga/Logo/1.jpg");
+    background: url("images/leagues/LaLiga/Logo/1.jpg");
     background-position: center -30px;
     height: 60px;
     position: fixed;
@@ -100,7 +100,7 @@ body {
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     padding: 10px;
-    background: url('/images/leagues/LaLiga/Logo/1.jpg');
+    background: url("images/leagues/LaLiga/Logo/1.jpg");
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
@@ -139,7 +139,7 @@ body {
 }
 
 #menuContent {
-    background: url('/images/leagues/LaLiga/Logo/1.jpg');
+    background: url("images/leagues/LaLiga/Logo/1.jpg");
     box-shadow: 0 4px 15px rgba(4, 53, 30, 0.2);
     border-radius: 10px;
     overflow: hidden;
@@ -204,7 +204,7 @@ body {
     
 }
 .content {
-    background: url('/images/leagues/LaLiga/Logo/1.jpg');
+    background: url("images/leagues/LaLiga/Logo/1.jpg");
     height: 520px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
