@@ -62,8 +62,8 @@ const playersDatabase = [
         Age: 32, 
         Number: 11, 
         Nationality: 'Egypt', 
-        ImageTeam:'/images/leagues/PremierLeague/Liverpool/Logo/Liverpool.png',
-        Photo:'/images/leagues/PremierLeague/Liverpool/Salah.png',
+        ImageTeam:'images/leagues/PremierLeague/Liverpool/Logo/Liverpool.png',
+        Photo:'images/leagues/PremierLeague/Liverpool/Salah.png',
     },
     { 
         Name: 'Darwin Nunez', 
