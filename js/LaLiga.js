@@ -45,5 +45,5 @@ closeButton.addEventListener('click', () => {
 
 adjustContentPosition();
 document.getElementById('startButton').onclick = function (){
-    window.location.assign("/LaLigaGame.html");
+    window.location.assign("LaLigaGame.html");
  };
