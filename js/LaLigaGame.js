@@ -602,7 +602,7 @@ const playersDatabase = [
         Photo: 'images/leagues/LaLiga/AtlMadrid/AntoineGriezmann.png',
     },
     {
-        Name: 'Alexander Sørloth',
+        Name: 'Alexander Sorloth',
         Team: 'Atlético Madrid',
         Position: 'Forward',
         Age: 28,  
