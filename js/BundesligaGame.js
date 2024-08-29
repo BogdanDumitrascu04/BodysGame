@@ -51,7 +51,6 @@ window.addEventListener('resize', adjustContentPosition);
 
 // Apelează funcția pentru a seta inițial marginile corect
 adjustContentPosition();
-
 // Example players database
 const playersDatabase = [
     { 
